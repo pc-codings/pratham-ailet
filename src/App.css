@@ -1,0 +1,309 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  position: sticky;
+  top: 0  ;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 180px;
+  background-color: whitesmoke;
+  height: 80px;
+  position: sticky;
+}
+.header-items{
+  display: flex;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+
+}
+.header-items p{
+  color: rgb(23, 23, 91);
+  font-weight: bold;
+}
+.image{
+  margin-bottom: 20px;
+}
+.upper-header{
+
+  height: 50px;
+  display: flex;
+  margin: auto;
+  background-color: rgb(27, 27, 112);
+}
+.marquee{
+  height: 50%;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  margin: 15px;
+}
+.upper-button{
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: white;
+  border-radius: 10px;
+  color:rgb(23, 23, 91);
+  width: 100px;
+  font-weight: bold;
+}
+.mid-head{
+  display: flex;
+  margin-right: 300px;
+  gap:10px;
+}
+.hero{
+  height: 350px;
+  background-color: rgb(23, 23, 91);
+}
+.hero img{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 23px;
+}
+.body-place{
+  margin-left: 300px;
+  margin-right: 300px;
+  
+}
+.body-down{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.body-left{
+  width: 62%;
+  text-align: left;
+}
+.body-left h1{
+  color:rgb(27, 27, 112);
+}
+.data p{
+  word-spacing: 5px;
+  line-height: 1.6;
+  color:rgb(76, 71, 71)
+}
+.data li{
+  word-spacing: 5px;
+  line-height: 1.6;
+  color:rgb(76, 71, 71)
+}
+.form-1{
+  display: flex;
+  flex-direction: column;
+}
+.form-1 input{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  border-radius: 20px;
+  color:rgb(136, 138, 139);
+  border:1px solid rgb(136, 138, 139);
+}
+
+.form{
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 20px;
+  border: 2px solid goldenrod;
+}
+.form-2{
+  display: flex;
+}
+.form h3{
+  color:rgb(27, 27, 112);
+}
+.form-2 input{
+  margin-top: 10px;
+  margin-left:10px;
+  margin-right:10px;
+  height: 40px;
+  border-radius: 20px;
+  color:rgb(136, 138, 139);
+  border:1px solid rgb(136, 138, 139);
+
+}
+.form-3 input{
+  margin-top: 10px;
+  margin-left:10px;
+  margin-right:10px;
+  height: 40px;
+  border-radius: 20px;
+  color:rgb(136, 138, 139);
+  border:1px solid rgb(136, 138, 139);
+
+}
+.form-4 input{
+  margin-top: 10px;
+  margin-left:10px;
+  margin-right:10px;
+  height: 40px;
+  border-radius: 20px;
+  color:rgb(136, 138, 139);
+  border:1px solid rgb(136, 138, 139);
+}
+.form-5 input{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  width: 93%;
+  border-radius: 20px;
+  color:rgb(136, 138, 139);
+  border:1px solid rgb(136, 138, 139);
+}
+.button-2{
+  position: sticky;
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 15px;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+}
+.form-button{
+  background-color: orange;
+  height: 35px;
+  width: 110px;
+  border-radius: 20px;
+}
+.table-data-left{
+  width: 40%;
+
+}
+.table-data-right{
+  width:40%
+}
+.table-data-upper{
+  background-color: rgb(27, 27, 112);
+  color: white;
+}
+.table-data-mid{
+  background-color: rgb(242, 240, 240);
+}
+.data-3{
+  line-height: 1.6;
+}
+p{
+  word-spacing: 5px;
+}
+li{
+  word-spacing: 5px;
+}
+.normal-div{
+  height: 4px;
+  width: 220px;
+  background-color: orange;
+}
+.para{
+  margin-left: 15px;
+
+}
+.para p{
+  line-height: 1.6;
+  word-spacing: 5px;
+  color:rgb(76, 71, 71)
+}
+.normal-div-2{
+  word-spacing: 5px;
+  height: 2px;
+  width: 100%;
+  background-color: orange;
+}
+
+.body-lower{
+  margin-left:300px;
+  margin-right: 300px;
+  height: 100px;
+}
+.body-lower h1{
+  text-align: left;
+  color: rgb(23, 23, 91);
+}
+
+
+.carousel-container {
+  margin-left: 300px;
+  margin-right: 300px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-slide {
+  flex: 0 0 20%; /* Adjust based on the number of images to show; 20% for 5 images */
+  transition: transform 0.5s ease-out;
+}
+
+/* Adjust the width, height, and margin as needed */
+.carousel-image {
+  width: 50%;
+  height: auto;
+}
+
+.footer{
+  text-align: left;
+  background-color: rgb(23, 23, 91);
+}
+.footer-2{
+  color: azure;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.footer-3{
+  color: azure;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.footer-mid{
+  background-color: #808080;
+
+}
+.footer-part-1 img{
+  margin:5px;
+  height: 20px;
+}
+.footer-part-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; /* Optional, if you want to vertically center the items */
+}
+.normal-div-1{
+  height: 4px;
+  width: 50px;
+  background-color: orange;
+  margin-left:100px
+}
+.normal-div-3{
+  word-spacing: 5px;
+  height: 2px;
+  width: 5%;
+  background-color: orange;
+}
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .mid-head, .hero img, .body-place, .carousel-container, .footer-2, .footer-3 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .form-1, .form-2, .form-3, .form-4, .form-5 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-items {
+    flex-direction: column;
+  }
+}
